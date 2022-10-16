@@ -1,2 +1,26 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Atividade Angular</title>
+</head>
+<body>
+  <header>
+    <div class="menu">
+      <button mat-button [matMenuTriggerFor]="menu">Menu de Seleção</button>
+      <mat-menu #menu="matMenu">
+        <button mat-menu-item >
+          <a href="atividade">Home</a>
+        </button>
+        <button mat-menu-item >
+          <a href="atividade/jogo">Jogo</a>
+        </button>
 
-<router-outlet></router-outlet>
+      </mat-menu>
+    </div>
+  </header>
+  <router-outlet></router-outlet>
+</body>
+</html>

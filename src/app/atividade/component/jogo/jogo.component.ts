@@ -13,7 +13,7 @@ export class JogoComponent implements OnInit {
 
   formAdvinha!:FormGroup;
 
-  resultado!: string;
+  resultado: string = '';
 
 
 
