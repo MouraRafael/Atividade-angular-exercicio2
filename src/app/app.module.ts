@@ -1,6 +1,6 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule,ReactiveFormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
@@ -16,6 +16,7 @@ import { JogoComponent } from './atividade/component/jogo/jogo.component';
     BrowserModule,
     AppRoutingModule,
     CommonModule,
+    FormsModule,
     ReactiveFormsModule
   ],
   providers: [],
