@@ -8,6 +8,15 @@ import { AppComponent } from './app.component';
 import { JogoComponent } from './atividade/component/jogo/jogo.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
+//Material Imports
+import { MatFormFieldModule } from "@angular/material/form-field";
+import { MatInputModule } from "@angular/material/input";
+import { MatDividerModule } from "@angular/material/divider";
+import { MatSelectModule } from "@angular/material/select";
+import { MatButtonModule } from "@angular/material/button";
+import { MatButtonToggleModule } from "@angular/material/button-toggle";
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -19,7 +28,15 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     CommonModule,
     FormsModule,
     ReactiveFormsModule,
-    BrowserAnimationsModule
+    BrowserAnimationsModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatDividerModule,
+    MatSelectModule,
+    MatDividerModule,
+    MatButtonModule,
+    MatButtonToggleModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
