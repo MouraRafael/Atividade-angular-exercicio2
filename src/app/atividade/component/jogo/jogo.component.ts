@@ -32,11 +32,10 @@ export class JogoComponent implements OnInit {
   comparaNumeros(){
     const calcula = this.formAdvinha.getRawValue() as JogoModel;
 
-    this.resultado = (this.baseAleatoria == calcula.entrada) ? 'Você Acertou! Parabéns':'Você Errou! Tente Novamente!'
+    this.resultado = (this.baseAleatoria == calcula.entrada) ? "Você Acertou! o numero era "+this.baseAleatoria+"! Parabéns":"Você Errou! O número era "+this.baseAleatoria+"! Tente Novamente!";
 
-
+    this.baseAleatoria = this.geraAleatorio();
   }
-
   get entrada() {return this.formAdvinha.get('entrada')!}
 
 }
