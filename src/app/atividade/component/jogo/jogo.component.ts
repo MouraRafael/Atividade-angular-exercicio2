@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./jogo.component.css']
 })
 export class JogoComponent implements OnInit {
-  baseAleaatoria: number = this.geraAleatorio();
+  baseAleatoria: number = this.geraAleatorio();
   constructor() { }
 
   ngOnInit(): void {
