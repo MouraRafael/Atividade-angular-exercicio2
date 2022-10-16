@@ -15,7 +15,7 @@ import { MatDividerModule } from "@angular/material/divider";
 import { MatSelectModule } from "@angular/material/select";
 import { MatButtonModule } from "@angular/material/button";
 import { MatButtonToggleModule } from "@angular/material/button-toggle";
-
+import { MatMenuModule } from "@angular/material/menu";
 
 @NgModule({
   declarations: [
@@ -36,6 +36,7 @@ import { MatButtonToggleModule } from "@angular/material/button-toggle";
     MatDividerModule,
     MatButtonModule,
     MatButtonToggleModule,
+    MatMenuModule
 
   ],
   providers: [],
