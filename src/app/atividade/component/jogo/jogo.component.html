@@ -1,1 +1,15 @@
-<p>jogo works!</p>
+<section>
+  <form [formGroup]="formAdvinha" (submit)="comparaNumeros(); geraAleatorio()">
+    <div>
+      <label>Insira sua aposta</label>
+      <input type="number" formControlName="entrada">
+      <div *ngIf="entrada.errors?.['required']">
+        <i style="color: red;">Preencha o campo</i>
+      </div>
+    </div>
+    <button type="submit">Tente sua Chance</button>
+  </form>
+
+</section>
+<p>{{resultado}}</p>
+<p>{{baseAleatoria}}</p>
