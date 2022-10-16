@@ -13,10 +13,9 @@ export class JogoComponent implements OnInit {
   }
 
   geraAleatorio():number{
-      var aleatorio = Math.floor(Math.random()*100);
-
-      return (aleatorio == 0) ?  this.geraAleatorio() : aleatorio;
-
+      return Math.floor(Math.random()*100) + 1;
   }
+
+
 
 }
