@@ -1,0 +1,22 @@
+.container{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.advinha-full-width{
+  width: 100%;
+
+
+}
+.botao{
+  width: 100%;
+}
+
+
+.resultado{
+  position: relative;
+  top: -100%;
+  background: lightgray;
+}
