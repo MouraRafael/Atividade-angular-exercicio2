@@ -11,12 +11,12 @@
     <div class="menu">
       <button mat-button [matMenuTriggerFor]="menu">Menu de Seleção</button>
       <mat-menu #menu="matMenu">
-        <button mat-menu-item >
-          <a href="atividade">Home</a>
-        </button>
-        <button mat-menu-item >
-          <a href="atividade/jogo">Jogo</a>
-        </button>
+        <a href="atividade">
+          <button mat-menu-item >Home</button>
+        </a>
+        <a href="atividade/jogo">
+            <button mat-menu-item >Jogo</button>
+          </a>
 
       </mat-menu>
     </div>
